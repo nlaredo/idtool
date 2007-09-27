@@ -1,0 +1,14 @@
+This is designed to run under windows or linux, and the ./build script should
+do the right thing when invoked at a cygwin shell or linux/freebsd/etc shell
+
+Sorry for the lack of a Makefile, it freaks MSVC out to have a unix Makefile.
+
+To build the Windows executable, you need to have MS Visual Studio 6.0 installed
+in "C:\Program Files\Microsoft Visual Studio"
+
+From cygwin environment, do ./build  or from this directory in cmd.exe do "build"
+
+Please email me with any issues.
+
+-- Nathan Laredo
+laredo@gnu.org

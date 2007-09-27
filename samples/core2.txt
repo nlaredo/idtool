@@ -1,0 +1,58 @@
+idtool 1.6 - AMD/Intel/Transmeta CPUID VIEWER
+
+PSN=DISABLED-DISABLED-DISABLED-DISABLED
+
+141 levels ignored
+0x00000000: eax=0x0000000a ebx=0x756e6547 ecx=0x6c65746e edx=0x49656e69
+	Maximum standard function = 10, Vendor ID = GenuineIntel
+0x00000001: eax=0x000006f7 ebx=0x02040800 ecx=0x0004e3bd edx=0xbfebfbff
+	Family = 6, Model = 15, Stepping = 7
+	Extended Family = 0, Extended Model = 0
+	APIC ID = 2, Virtual CPUs = 4, CLFUSH size = 8, Brand ID = 0x00
+	fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov 
+	pat pse36 clfsh ds acpi mmx fxsr sse sse2 ss htt tm pbe 
+	sse3 res2 monitor ds-cpl vmx eist tm2 ssse3 cx16 xtpr res15 dca 
+	
+0x00000002: eax=0x05b0b101 ebx=0x005657f0 ecx=0x00000000 edx=0x2cb43049
+	[b1] Instruction TLB: 4-MB Pages, 4-way set associative, 4 entries, 8 entries for 2-MB Pages
+	[b0] Instruction TLB: 4-KB Pages, 4-way set associative, 128 entries
+	[05] Data TLB1: 4-MB Pages, 4-way set associative, 32 entries
+	[f0] 64-byte Prefetching
+	[57] Data TLB0: 4-KB pages, 4-way associative, 16 entries
+	[56] Data TLB0: 4-MB pages, 4-way set associative, 16 entries
+	[49] 2nd-level cache: 4-MB, 16-way set associative, 64-byte line size
+	[30] 1st-level instruction cache: 32-KB, 8-way set associative, 64-byte line size
+	[b4] Data TLB1: 4-KB Pages, 4-way set associative, 256 entries
+	[2c] 1st-level data cache: 32-KB, 8-way set associative, 64-byte line size
+0x00000004: eax=0x0c000121 ebx=0x01c0003f ecx=0x0000003f edx=0x00000001
+	Cache = Level 1 data, Self Initializing, 
+	threads sharing this cache = 1
+	processor cores on this die = 4
+	ways = 8, line partitions = 1, line size = 64, sets = 64
+0x00000005: eax=0x00000040 ebx=0x00000040 ecx=0x00000003 edx=0x00000020
+	Smallest monitor line size = 64 bytes,
+	Largest monitor line size = 64 bytes
+0x00000006: eax=0x00000001 ebx=0x00000002 ecx=0x00000001 edx=0x00000000
+	Digital Thermometer = 1, Operating Point Protection = 0
+	Programmable Temp Thresholds = 2
+0x00000004: eax=0x0c000121 ebx=0x01c0003f ecx=0x0000003f edx=0x00000001
+0x00000005: eax=0x00000040 ebx=0x00000040 ecx=0x00000003 edx=0x00000020
+0x00000006: eax=0x00000001 ebx=0x00000002 ecx=0x00000001 edx=0x00000000
+0x00000008: eax=0x00000400 ebx=0x00000000 ecx=0x00000000 edx=0x00000000
+0x0000000a: eax=0x07280202 ebx=0x00000000 ecx=0x00000000 edx=0x00000000
+0x80000000: eax=0x80000008 ebx=0x00000000 ecx=0x00000000 edx=0x00000000
+	Maximum extended function = 8, Extended Vendor = (null)
+0x80000001: eax=0x00000000 ebx=0x00000000 ecx=0x00000001 edx=0x20100000
+	High Family = 0, Model = 0, Stepping = 0
+	nx lm 
+	ahf64 
+0x80000002: eax=0x65746e49 ebx=0x2952286c ecx=0x6f655820 edx=0x2952286e
+0x80000003: eax=0x55504320 ebx=0x20202020 ecx=0x20202020 edx=0x45202020
+0x80000004: eax=0x30333335 ebx=0x20402020 ecx=0x33312e32 edx=0x007a4847
+	Intel(R) Xeon(R) CPU           E5330  @ 2.13GHz
+0x80000006: eax=0x00000000 ebx=0x00000000 ecx=0x10008040 edx=0x00000000
+	L2 Data Cache: 4096 KB, 16-way, 64 bytes per line, 0 per tag
+0x80000008: eax=0x00003024 ebx=0x00000000 ecx=0x00000000 edx=0x00000000
+	virtual address size = 48, physical size = 36
+	cores per die = 1, maximum cores = 1
+

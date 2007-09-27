@@ -1,0 +1,73 @@
+$ tmtaSysInfo.exe -r -c -V
+System Info: TDM = localhost
+Unique ID: 2101C995110133B2
+ID Code: 000C41609189
+Silicon Revision: 2.0 (31..29).(28..25)
+Lot ID: 02676 (23..3)
+Wafer ID: 17 (28..24)
+Die Coordinates: X=10 (6..1); Y=19 (12..7)
+Fab: G
+Foundry: 5 (24..22)
+Process: 1 (17..15)
+Process Rev: 0 (19..17)
+Electronic Serial Number: G02676-17-10-19
+ Primary Boot Version: "20040723 20:41 official release 6.0.4#6"
+  Primary CMS Version: "20040723 20:41 official release 6.0.4#6"
+Recovery Boot Version: "20040723 20:41 official release 6.0.4#6"
+ Recovery CMS Version: "20040723 20:41 official release 6.0.4#6"
+ Primary OEM Configuation Table Version: 4.12; Configured: 2004-10-05 13:20:26
+Recovery OEM Configuratio Table Version: 4.12; Configured: 2004-10-05 13:20:26
+
+idtool - AMD/Intel/Transmeta CPUID VIEWER
+
+      mfgid = msr80868072
+    vvvvvvvvvvvvvvvvv
+PSN=0000000c-41609189-2101c995-110133b2
+        ^^^^^^^^^^^^^ ^^^^^^^^^^^^^^^^^
+	   ID Code        Unique ID
+
+0x00000000: eax=0x00000003 ebx=0x756e6547 ecx=0x3638784d edx=0x54656e69
+	Maximum standard function = 3, Vendor ID = GenuineTMx86
+0x00000001: eax=0x00000f24 ebx=0x00011000 ecx=0x00000000 edx=0x2fcff9ff
+	Family = 15, Model = 2, Stepping = 4 (Efficeon)
+	Extended Family = 0, Extended Model = 0
+	APIC ID = 0, Virtual CPUs = 0, CLFUSH size = 0, Brand ID = 0x00
+	fpu vme de pse tsc msr pae mce cx8 sep mtrr pge mca cmov pat 
+	pse36 psn clfsh acpi mmx fxsr sse sse2 ss tm 
+0x00000002: eax=0x00000001 ebx=0x00000000 ecx=0x00000000 edx=0x00000000
+0x00000003: eax=0x0000000c ebx=0x41609189 ecx=0x2101c995 edx=0x110133b2
+0x80000000: eax=0x80000008 ebx=0x6e617254 ecx=0x55504361 edx=0x74656d73
+	Maximum extended function = 8, Extended Vendor = TransmetaCPU
+0x80000001: eax=0x00000f24 ebx=0x00000000 ecx=0x00000000 edx=0x01c3f1ff
+	High Family = 15, Model = 2, Stepping = 4
+	fpu vme de pse tsc msr pae mce cx8 mtrr pge mca cmov pat pse36 
+	mmxext mmx fxsr 
+0x80000002: eax=0x6e617254 ebx=0x74656d73 ecx=0x66452061 edx=0x65636966
+0x80000003: eax=0x74286e6f ebx=0x5020296d ecx=0x65636f72 edx=0x726f7373
+0x80000004: eax=0x384d5420 ebx=0x00303030 ecx=0x00000000 edx=0x00000000
+	Transmeta Efficeon(tm) Processor TM8000
+0x80000005: eax=0x00000000 ebx=0x04ff04ff ecx=0x40080120 edx=0x80040140
+	Data TLB 4-Kbyte Pages: 4-way, 255 entries
+	Code TLB 4-Kbyte Pages: 4-way, 255 entries
+	L1 Data Cache: 64 KB, 8-way, 32 bytes per line, 1 per tag
+	L1 Code Cache: 128 KB, 4-way, 64 bytes per line, 1 per tag
+0x80000006: eax=0x00000000 ebx=0x00000000 ecx=0x04004180 edx=0x00000000
+	L2 Data Cache: 1024 KB, 4-way, 128 bytes per line, 1 per tag
+0x80000008: eax=0x00002020 ebx=0x00000000 ecx=0x00000000 edx=0x00000000
+	virtual address size = 32, physical size = 32
+0x80860000: eax=0x80860007 ebx=0x6e617254 ecx=0x55504361 edx=0x74656d73
+	Maximum 8086 function = 7, 8086 Vendor = TransmetaCPU
+0x80860001: eax=0x00000f24 ebx=0x02000000 ecx=0x000004b0 edx=0x0000142a
+	8086 Family = 15, Model = 2, Stepping = 4
+	Nominal Frequency = 1200 MHz
+	longrun lrti test tta pbe 
+0x80860002: eax=0x41609101 ebx=0x06000401 ecx=0x0000003e edx=0x00000000
+	Efficeon 2.0, 29mm x 29mm package
+	CMS Revision 6.0.4-1-62
+0x80860003: eax=0x34303032 ebx=0x33323730 ecx=0x3a303220 edx=0x6f203134
+0x80860004: eax=0x63696666 ebx=0x206c6169 ecx=0x656c6572 edx=0x20657361
+0x80860005: eax=0x2e302e36 ebx=0x00362334 ecx=0x00000000 edx=0x00000000
+	20040723 20:41 official release 6.0.4#6
+0x80860007: eax=0x000004b0 ebx=0x000003e8 ecx=0x00000064 edx=0x00000000
+	Current Frequency = 1200 MHz @ 1000mV, 100%
+

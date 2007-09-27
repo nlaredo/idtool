@@ -1,0 +1,48 @@
+idtool 1.4 - AMD/Intel/Transmeta CPUID VIEWER
+
+PSN=DISABLED-DISABLED-DISABLED-DISABLED
+
+0x00000000: eax=0x00000001 ebx=0x756e6547 ecx=0x3638784d edx=0x54656e69
+	Maximum standard function = 1, Vendor ID = GenuineTMx86
+0x00000001: eax=0x00000543 ebx=0x00000000 ecx=0x00000000 edx=0x0080893f
+	Family = 5, Model = 4, Stepping = 3 (Crusoe)
+	fpu vme de pse tsc msr cx8 sep cmov mmx 
+0x80000000: eax=0x80000006 ebx=0x6e617254 ecx=0x55504361 edx=0x74656d73
+	Maximum extended function = 6, Extended Vendor = TransmetaCPU
+0x80000001: eax=0x00000543 ebx=0x00000000 ecx=0x00000000 edx=0x0081813f
+	High Family = 5, Model = 4, Stepping = 3
+	fpu vme de pse tsc msr cx8 cmov pat mmx 
+0x80000002: eax=0x6e617254 ebx=0x74656d73 ecx=0x6d742861 edx=0x72432029
+0x80000003: eax=0x656f7375 ebx=0x296d7428 ecx=0x6f725020 edx=0x73736563
+0x80000004: eax=0x5420726f ebx=0x3036354d ecx=0x00000030 edx=0x00000000
+	Transmeta(tm) Crusoe(tm) Processor TM5600
+0x80000005: eax=0x00000000 ebx=0x04ff04ff ecx=0x40100120 edx=0x40080140
+	Data TLB 4-Kbyte Pages: 4-way, 255 entries
+	Code TLB 4-Kbyte Pages: 4-way, 255 entries
+	L1 Data Cache: 64 KB, 16-way, 32 bytes per line, 1 per tag
+	L1 Code Cache: 64 KB, 8-way, 64 bytes per line, 1 per tag
+0x80000006: eax=0x00000000 ebx=0x00000000 ecx=0x02004180 edx=0x00000000
+	L2 Data Cache: 512 KB, 4-way, 128 bytes per line, 1 per tag
+0x80860000: eax=0x80860007 ebx=0x6e617254 ecx=0x55504361 edx=0x74656d73
+	Maximum 8086 function = 7, 8086 Vendor = TransmetaCPU
+0x80860001: eax=0x00000543 ebx=0x01030102 ecx=0x00000258 edx=0x0000008e
+	8086 Family = 5, Model = 4, Stepping = 3
+	TM5400 or TM5600 (P95F) 1.2
+	Nominal Frequency = 600 MHz
+	longrun pti lrti sy1 
+0x80860002: eax=0x00000000 ebx=0x04040000 ecx=0x00000000 edx=0x00000000
+	CMS Revision 4.4.0-0-0
+0x80860003: eax=0x31303032 ebx=0x30333031 ecx=0x3a363120 edx=0x6e203135
+0x80860004: eax=0x6572616c ebx=0x20206f64 ecx=0x756e616d edx=0x2f206c61
+0x80860005: eax=0x6f707865 ebx=0x682f7472 ecx=0x2f656d6f edx=0x2f6c696e
+0x80860006: eax=0x2f534d43 ebx=0x326d7674 ecx=0x6a626f2f edx=0x00000000
+	20011030 16:51 nlaredo  manual /export/home/nil/CMS/tvm2/obj
+0x80860007: eax=0x00000258 ebx=0x00000640 ecx=0x00000064 edx=0x000085d9
+	Current Frequency = 600 MHz @ 1600mV, 100%
+0xc0000000: eax=0xc0000005 ebx=0x00000000 ecx=0x00000000 edx=0x00000003
+0xc0000001: eax=0x79206649 ebx=0x6320756f ecx=0x72206e61 edx=0x20646165
+0xc0000002: eax=0x73696874 ebx=0x6f79202c ecx=0x656e2075 edx=0x61206465
+0xc0000003: eax=0x77656e20 ebx=0x4f494220 ecx=0x32282053 edx=0x0029312e
+0xc0000004: eax=0x00000000 ebx=0x62171189 ecx=0x1c1a2411 edx=0x00084798
+0xc0000005: eax=0x00000006 ebx=0x00000007 ecx=0x00000012 edx=0x0000001e
+
