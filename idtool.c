@@ -212,9 +212,9 @@ static char *cache_decode[256] = {
 /* AMD volume 3 */
 static char *edx8_feat[32] = {
 	"fpu","vme","de","pse","tsc","msr","pae","mce",
-	"cx8","apic","res10","syscall","mtrr","pge", "mca","cmov",
-	"pat","pse36","res18","mp","nx","res21", "mmxext","mmx",
-	"fxsr","ffxsr","res26","tscp","res28", "lm","3dnowext","3dnow"
+	"cx8","apic","k6sep","sep","mtrr","pge", "mca","cmov",
+	"pat fcmov","pse36","res18","mp","nx","res21", "mmxext","mmx",
+	"fxsr","ffxsr","pg1g","tscp","res28", "lm","3dnowext","3dnow"
 };
 
 static char *ecx8_feat[32] = {
@@ -226,14 +226,14 @@ static char *ecx8_feat[32] = {
 };
 
 static char *edx87_feat[32] = {
-	"ts","fid","vid","ttp","tm","stc", "res6", "res7", "fixedtsc",
+	"ts","fid","vid","ttp","tm","stc", "mul100", "hwps", "itsc",
 	"res9", "res10", "res11", "res12", "res13", "res14", "res15",
 	"res16", "res17", "res18", "res19", "res20", "res21", "res22",
 	"res23", "res24", "res25", "res26", "res27", "res28", "res29",
 	"res30", "res31"
 };
 
-/* TMTA internal cpuid document */
+/* TMTA bios developer's guide (no longer available) */
 static char *edx86_feat[32] = {
 	"recovery","longrun","pti","lrti","tvm","test","lrdi","sy1",
 	"sy2","tsx","tta","topc","pbe","minicms","lrtil","res15",
