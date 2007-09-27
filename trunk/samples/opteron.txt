@@ -1,0 +1,42 @@
+idtool 1.7 - AMD/Intel/Transmeta CPUID VIEWER
+
+PSN=DISABLED-DISABLED-DISABLED-DISABLED
+
+0x00000000: eax=0x00000001 ebx=0x68747541 ecx=0x444d4163 edx=0x69746e65
+	Maximum standard function = 1, Vendor ID = AuthenticAMD
+0x00000001: eax=0x00020f12 ebx=0x00020800 ecx=0x00000001 edx=0x178bfbff
+	Family = 15, Model = 33, Stepping = 2
+	APIC ID = 0, Virtual CPUs = 2, CLFUSH size = 8, Brand ID = 0x00
+	fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov 
+	pat pse36 clfsh mmx fxsr sse sse2 htt 
+	sse3 
+0x80000000: eax=0x80000018 ebx=0x68747541 ecx=0x444d4163 edx=0x69746e65
+	Maximum extended function = 24, Extended Vendor = AuthenticAMD
+0x80000001: eax=0x00020f12 ebx=0x00000c45 ecx=0x00000003 edx=0xe3d3fbff
+	High Family = 15, Model = 33, Stepping = 2
+	fpu vme de pse tsc msr pae mce cx8 apic syscall mtrr pge mca 
+	cmov pat pse36 nx mmxext mmx fxsr ffxsr lm 3dnowext 3dnow 
+	ahf64 cmp 
+0x80000002: eax=0x6c617544 ebx=0x726f4320 ecx=0x4d412065 edx=0x704f2044
+0x80000003: eax=0x6f726574 ebx=0x6d74286e ecx=0x72502029 edx=0x7365636f
+0x80000004: eax=0x20726f73 ebx=0x00303732 ecx=0x00000000 edx=0x00000000
+	Dual Core AMD Opteron(tm) Processor 270
+0x80000005: eax=0xff08ff08 ebx=0xff20ff20 ecx=0x40020140 edx=0x40020140
+	data TLB 2MB/4MB Pages: 255-way, 8 entries
+	code TLB 2MB/4MB Pages: 255-way, 8 entries
+	data TLB 4-Kbyte Pages: 255-way, 32 entries
+	code TLB 4-Kbyte Pages: 255-way, 32 entries
+	L1 Data Cache: 64 KB, 2-way, 64 bytes per line, 1 per tag
+	L1 Code Cache: 64 KB, 2-way, 64 bytes per line, 1 per tag
+0x80000006: eax=0x00000000 ebx=0x42004200 ecx=0x04008140 edx=0x00000000
+	L2 data TLB 4-Kbyte Pages: 4-way, 512 entries
+	L2 code TLB 4-Kbyte Pages: 4-way, 512 entries
+	L2 Data Cache: 1024 KB, 16-way, 64 bytes per line, 1 per tag
+0x80000007: eax=0x00000000 ebx=0x00000000 ecx=0x00000000 edx=0x0000000f
+	ts fid vid ttp 
+0x80000008: eax=0x00003028 ebx=0x00000000 ecx=0x00000001 edx=0x00000000
+	virtual address size = 48, physical size = 40
+	cores per die = 2, maximum cores = 2
+0x8fffffff: eax=0x53275449 ebx=0x4d414820 ecx=0x2052454d edx=0x454d4954
+	IT'S HAMMER TIME
+

@@ -1,0 +1,51 @@
+idtool 1.5 - AMD/Intel/Transmeta CPUID VIEWER
+
+PSN=DISABLED-DISABLED-DISABLED-DISABLED
+
+141 levels ignored
+0x00000000: eax=0x0000000a ebx=0x756e6547 ecx=0x6c65746e edx=0x49656e69
+	Maximum standard function = 10, Vendor ID = GenuineIntel
+0x00000001: eax=0x000006e8 ebx=0x01020800 ecx=0x0000c1a9 edx=0xbfe9fbff
+	Family = 6, Model = 14, Stepping = 8
+	fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov 
+	pat clfsh ds acpi mmx fxsr sse sse2 ss htt tm pbe 
+	sse3 monitor vmx eist tm2 xtpr res15 
+0x00000002: eax=0x02b3b001 ebx=0x000000f0 ecx=0x00000000 edx=0x2c04307d
+	[b0] Instruction TLB: 4-KB Pages, 4-way set associative, 128 entries
+	[b3] Data TLB: 4-KB Pages, 4-way set associative, 128 entries
+	[02] Instruction TLB: 4-MB Pages, fully associative, 2 entries
+	[f0] 64-byte Prefetching
+	[7d] 2nd-level cache: 2-MB, 8-way set associative, 64-byte line size
+	[30] 1st-level instruction cache: 32-KB, 8-way set associative, 64-byte line size
+	[04] Data TLB: 4-MB Pages, 4-way set associative, 8 entries
+	[2c] 1st-level data cache: 32-KB, 8-way set associative, 64-byte line size
+0x00000004: eax=0x04000121 ebx=0x01c0003f ecx=0x0000003f edx=0x00000001
+	Cache = Level 1 data, Self Initializing, 
+	threads sharing this cache = 1
+	processor cores on this die = 2
+	ways = 8, line partitions = 1, line size = 64, sets = 64
+0x00000005: eax=0x00000040 ebx=0x00000040 ecx=0x00000003 edx=0x00022220
+	Smallest monitor line size = 64 bytes,
+	Largest monitor line size = 64 bytes
+0x00000006: eax=0x00000001 ebx=0x00000002 ecx=0x00000001 edx=0x00000000
+	Digital Thermometer = 1, Operating Point Protection = 0
+	Programmable Temp Thresholds = 2
+0x00000004: eax=0x04000121 ebx=0x01c0003f ecx=0x0000003f edx=0x00000001
+0x00000005: eax=0x00000040 ebx=0x00000040 ecx=0x00000003 edx=0x00022220
+0x00000006: eax=0x00000001 ebx=0x00000002 ecx=0x00000001 edx=0x00000000
+0x0000000a: eax=0x07280201 ebx=0x00000000 ecx=0x00000000 edx=0x00000000
+0x80000000: eax=0x80000008 ebx=0x00000000 ecx=0x00000000 edx=0x00000000
+	Maximum extended function = 8, Extended Vendor = (null)
+0x80000001: eax=0x00000000 ebx=0x00000000 ecx=0x00000000 edx=0x00100000
+	High Family = 0, Model = 0, Stepping = 0
+	nx 
+0x80000002: eax=0x756e6547 ebx=0x20656e69 ecx=0x65746e49 edx=0x2952286c
+0x80000003: eax=0x55504320 ebx=0x20202020 ecx=0x20202020 edx=0x54202020
+0x80000004: eax=0x30303532 ebx=0x20402020 ecx=0x30302e32 edx=0x007a4847
+	Genuine Intel(R) CPU           T2500  @ 2.00GHz
+0x80000006: eax=0x00000000 ebx=0x00000000 ecx=0x08006040 edx=0x00000000
+	L2 Data Cache: 2048 KB, 8-way, 64 bytes per line, 0 per tag
+0x80000008: eax=0x00002020 ebx=0x00000000 ecx=0x00000000 edx=0x00000000
+	virtual address size = 32, physical size = 32
+	cores per die = 1, maximum cores = 1
+

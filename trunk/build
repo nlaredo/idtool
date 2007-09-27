@@ -1,0 +1,7 @@
+#!/bin/sh -x
+i=`uname`
+if [ ${i%%_*} == "CYGWIN" ]; then
+	cmd.exe /c build.cmd
+else
+	gcc -Wall -m32 -O2 -o idtool idtool.c
+fi
